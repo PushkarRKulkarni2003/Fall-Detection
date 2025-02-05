@@ -14,7 +14,5 @@ How It Works
 1.	Initialization: Sets up the IMU sensor, Wi-Fi connection, and Blynk integration.
 2.	Data Collection: Continuously reads acceleration values from the IMU.
 3.	Fall Detection: Calculates the variance of acceleration data over a set of samples and compares it against a threshold.
-4.	Alerts: 
-      o	If a fall is detected, sends a "Fall Detected!" alert to Blynk.
-      o	If the SOS button is pressed, sends an emergency alert to Blynk.
+4.	Alerts: If a fall is detected, sends a "Fall Detected!" alert to Blynk or If the SOS button is pressed, sends an emergency alert to Blynk.
 5.	Dashboard Visualization: Displays variance data, fall status, and SOS state on the Blynk dashboard.
